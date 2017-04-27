@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Portfolio Assignment</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<nav>
-		<a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
-		<div id="yourname">albert FACTORA</div>
+
+	<nav><a href="index.html">About  </a>|<a href="portfolio.html">  Portfolio  </a>|<a href="contact.html">  Contact</a>
+		<div id="yourname">
+			<header>albertFACTORA</header>
+		</div>
 	</nav>
 
-	<div class="group">
-
-	    <article>
-	    	<h1>Contact</h1><br>
-	    	<hr>
-
-  <form action="/action_page.php">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Worf, son of Mogh...">
-
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="worf@theenterprise.com...">
-
-    <label for="message">Message</label>
- <!--  	<input type="text" id="message" name="message"> -->
-  
-	<textarea rows="20" cols="112"></textarea><br>
-
-    <input type="submit" value="Submit">
-  </form>
-
-	    </article>
-	    <div id="aside">
-	    	<h2>Connect with Me</h2>
+	<div class="content"> <!-- content-container for about me -->
+		<!-- about me section -->
+		<section>
+			<header>Contact</header>
 			<hr>
-				<section>
-					<img src="assets/images/github.jpg">
-				</section>
-				<section>
-					<img src="assets/images/linkedin.png">
-				</section>
-				<section>
-					<img src="assets/images/stackoverflow.png">
-				</section>
-	    </div>
+			<article>
+				<form action="/action_page.php"><br>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="Worf, son of Mogh...">
+
+					<label for="email">Email</label>
+					<input type="text" id="email" name="email" placeholder="worf@theenterprise.com...">
+
+					<label for="message">Message</label>
+ 					<!--  	<input type="text" id="message" name="message"> -->
+  
+					<textarea rows="20" cols="112"></textarea><br>
+					<input type="submit" value="Submit">
+				</form>
+			</article>
+		</section>
+		<!-- connect with me section -->
+		<div class="socialicons"><header>Connect with Me</header>
+			<hr>
+			<div><a href="https://github.com/deffractedmind"><img class="git" src="assets/images/github-icon.jpg"></a></div>
+			<div><a href="http://www.linkedin.com/in/albertfactora"><img class="link" src="assets/images/linkedin-icon.png"></a></div>
+			<div><a href="http://stackoverflow.com/users/3977510"><img class="stack" src="assets/images/stackoverflow-icon.png"></a></div>
+		</div>
 	</div>
-    <div id="footnote">&#8709; Copyright 2017 albertFACTORA</div>
-    <footer></footer>
+
+	<footer>
+		&#8711; Copyright 2017 albertFACTORA
+	</footer>
+
 </body>
 </html>
