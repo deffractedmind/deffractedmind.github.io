@@ -1,3 +1,3 @@
 # Basic-Portfolio
 
-deffractedmind.github.io
+https://deffractedmind.github.io
